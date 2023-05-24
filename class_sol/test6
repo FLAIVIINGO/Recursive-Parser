@@ -1,0 +1,18 @@
+S --> A B
+  |   C A B D
+;
+D --> s
+  |   B r
+  |
+;
+B --> p B
+  |
+;
+A --> x A y 
+   | z 
+   | a A b
+;
+C --> C S C
+  | w B
+  |
+;

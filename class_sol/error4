@@ -1,0 +1,15 @@
+A --> A D 
+   |  A C
+   | B | p q r s T | | |
+   ;
+B --> C D B | m n B
+    |  z
+    ;
+C --> C x C x C
+    | C y 
+    |
+    ;
+E --> e E | d D ;
+D --> d D
+    | p
+    ;
